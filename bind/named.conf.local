@@ -15,3 +15,7 @@ zone "sam-arnalsteen.sb.uclllabs.be"{
 		193.191.177.138;
 		193.191.177.254; };
 };
+zone "arne-bauters.sb.uclllabs.be"{
+	type slave;
+	masters {193.191.176.130;};
+};
