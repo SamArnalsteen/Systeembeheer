@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	sam-arnalsteen.sb.uclllabs.be. root.sam-arnalsteen.sb.uclllabs.be. (
-			 201910501	; Serial
+			 2019101401	; Serial
 			 300		; Refresh
 			 300		; Retry
 			 300		; Expire
@@ -19,3 +19,5 @@ ns		IN	A	193.191.177.176
 @		IN	A	193.191.177.176
 www		IN	A	193.191.177.176
 test		IN	A	193.191.177.254
+www1		IN	A	193.191.177.176
+www2		IN	A	193.131.177.176
