@@ -1,0 +1,69 @@
+<VirtualHost *:80>
+	ServerAdmin webmaster@localhost
+	ServerName sam-arnalsteen.sb.uclllabs.be
+	DocumentRoot /var/www/sam-arnalsteen.sb.uclllabs.be
+	ErrorLog ${APACHE_LOG_DIR}/wwwerror.log
+	CustomLog ${APACHE_LOG_DIR}/wwwaccess.log combined
+</VirtualHost>
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+	ServerName www1.sam-arnalsteen.sb.uclllabs.be
+        DocumentRoot /var/www/www1.sam-arnalsteen.sb.uclllabs.be
+        ErrorLog ${APACHE_LOG_DIR}/www1error.log
+        CustomLog ${APACHE_LOG_DIR}/www2access.log combined
+	<Directory "/var/www/www1.sam-arnalsteen.sb.uclllabs.be/private">
+		AuthType Basic
+        	AuthName "Restricted Content"
+        	AuthUserFile /etc/apache2/.htpasswd
+        	Require valid-user
+	</Directory>
+</VirtualHost>
+
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName www2.sam-arnalsteen.sb.uclllabs.be
+        DocumentRoot /var/www/www2.sam-arnalsteen.sb.uclllabs.be
+        ErrorLog ${APACHE_LOG_DIR}/www2error.log
+        CustomLog ${APACHE_LOG_DIR}/www2access.log combined
+</VirtualHost>
+
+
+
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+        ServerAdmin webmaster@localhost
+        ServerName supersecure.sam-arnalsteen.sb.uclllabs.be
+        DocumentRoot /var/www/supersecure.sam-arnalsteen.sb.uclllabs.be
+        ErrorLog ${APACHE_LOG_DIR}/supersecureerror.log
+        CustomLog ${APACHE_LOG_DIR}/supersecureaccess.log combined
+
+Include /etc/letsencrypt/options-ssl-apache.conf
+ServerAlias supersecure.sam-arnalsteen.sb.uclllabs.be
+SSLCertificateFile /etc/letsencrypt/live/supersecure.sam-arnalsteen.sb.uclllabs.be/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/supersecure.sam-arnalsteen.sb.uclllabs.be/privkey.pem
+</VirtualHost>
+</IfModule>
+
+<IfModule mod_ssl.c>
+<VirtualHost *:443>
+        ServerAdmin webmaster@localhost
+        ServerName secure.sam-arnalsteen.sb.uclllabs.be
+        DocumentRoot /var/www/secure.sam-arnalsteen.sb.uclllabs.be
+        ErrorLog ${APACHE_LOG_DIR}/secureerror.log
+        CustomLog ${APACHE_LOG_DIR}/secureaccess.log combined
+
+
+Include /etc/letsencrypt/options-ssl-apache.conf
+ServerAlias secure.sam-arnalsteen.sb.uclllabs.be
+SSLCertificateFile /etc/letsencrypt/live/secure.sam-arnalsteen.sb.uclllabs.be/fullchain.pem
+SSLCertificateKeyFile /etc/letsencrypt/live/secure.sam-arnalsteen.sb.uclllabs.be/privkey.pem
+</VirtualHost>
+e>
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName secure.sam-arnalsteen.sb.uclllabs.be
+        DocumentRoot /var/www/secure.sam-arnalsteen.sb.uclllabs.be
+        ErrorLog ${APACHE_LOG_DIR}/secureerror.log
+        CustomLog ${APACHE_LOG_DIR}/secureaccess.log combined
+</VirtualHost>
+
