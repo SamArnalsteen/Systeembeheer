@@ -1,0 +1,5 @@
+user = vemailuser
+password = vemailpass
+hosts = 127.0.0.1
+dbname = virtual_email
+query = SELECT destination FROM virtual_aliases AS A LEFT JOIN virtual_domains AS D ON A.domain_id=D.id WHERE CONCAT(A.source, '@', D.name)='%s'

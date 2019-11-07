@@ -1,0 +1,5 @@
+user = vemailuser
+password = vemailpass
+hosts = 127.0.0.1
+dbname = virtual_email
+query = SELECT 1 FROM virtual_users AS U LEFT JOIN virtual_domains AS D ON U.domain_id=D.id WHERE CONCAT(U.user, '@',D.name)='%s'

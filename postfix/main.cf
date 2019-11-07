@@ -9,6 +9,25 @@ append_dot_mydomain = no
 # Uncomment the next line to generate "delayed mail" warnings
 #delay_warning_time = 4h
 
+# TLS parameters
+smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+smtpd_use_tls=yes
+smtpd_tls_session_cache_database = btree:${queue_directory}/smtpd_scache
+smtp_tls_session_cache_database = btree:${queue_directory}/smtp_scache
+
+#vhost with mysql params
+#virtual_alias_domains needs to be unset
+virtual_alias_domains =
+
+virtual_mailbox_domains = mysql:/etc/postfix/virtual/mysql-virtual-mailbox-domains.cf
+virtual_mailbox_maps = mysql:/etc/postfix/virtual/mysql-virtual-mailbox-maps.cf
+virtual_alias_maps = mysql:/etc/postfix/virtual/mysql-virtual-alias-maps.cf, mysql:/etc/postfix/virtual/mysql-virtual-email2email.cf
+virtual_uid_maps = static:5000
+virtual_gid_maps = static:5000
+virtual_transport = dovecot
+dovecot_destination_recipient_limit = 1
+
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 mydestination = localhost
@@ -19,7 +38,12 @@ recipient_delimiter = +
 myhostname = sam-arnalsteen.sb.uclllabs.be
 
 myorigin = /etc/mailname
+mailbox_command = procmail -a "$EXTENSION"
 mailbox_size_limit = 0
 inet_protocols = all
-home_mailbox = Maildir/
-virtual_alias_maps = hash:/etc/postfix/virtual
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_auth_enable = yes
+smtpd_recipient_restrictions = permit_mynetworks,permit_sasl_authenticated,reject_unauth_destination
+
+
