@@ -3,7 +3,7 @@
 ;
 $TTL	300
 @	IN	SOA	sam-arnalsteen.sb.uclllabs.be. root.sam-arnalsteen.sb.uclllabs.be. (
-			 2019110514	; Serial
+			 2019110530	; Serial
 			 300		; Refresh
 			 300		; Retry
 			 300		; Expire
@@ -31,3 +31,7 @@ secure.sam-arnalsteen.sb.uclllabs.be.	IN	CAA	0 iodef "mailto:root@sam-arnalsteen
 
 supersecure.sam-arnalsteen.sb.uclllabs.be.   IN      CAA     0 issue "letsencrypt.org"
 supersecure.sam-arnalsteen.sb.uclllabs.be.   IN      CAA     0 iodef "mailto:root@sam-arnalsteen.sb.uclllabs.be"
+
+subdomain     IN      A       193.191.177.176
+
+boe     IN      A       193.191.177.176
