@@ -1,5 +1,5 @@
 user = vemailuser
 password = vemailpass
-hosts = 127.0.0.1
+hosts = 193.191.177.176
 dbname = virtual_email
 query = SELECT 1 FROM virtual_domains WHERE name='%s'
