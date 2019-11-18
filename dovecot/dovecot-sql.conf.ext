@@ -1,6 +1,20 @@
 # This file is commonly accessed via passdb {} or userdb {} section in
 # conf.d/auth-sql.conf.ext
 
+
+
+
+driver = mysql
+
+connect = host=127.0.0.1 dbname=mailserver user=mailuser password=mailuserpass
+
+default_pass_scheme = SHA512-CRYPT
+
+password_query = SELECT email as user, password FROM virtual_users WHERE email='%u';
+
+
+
+
 # This file is opened as root, so it should be owned by root and mode 0600.
 #
 # http://wiki2.dovecot.org/AuthDatabase/SQL
