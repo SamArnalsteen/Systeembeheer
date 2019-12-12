@@ -4,15 +4,18 @@ printf "Name of dns zone cannot be empty!"
 else
 
 echo "\$TTL	300
-@	IN	SOA	sam-arnalsteen.sb.uclllabs.be.	$1.sam-arnalsteen.sb.uclllabs.be.(
+@	IN	SOA	ns.$1.sam-arnalsteen.sb.uclllabs.be.	root.$1.sam-arnalsteen.sb.uclllabs.be.(
 			1	; Serial
 			300	; Refresh
 			300	; Retry
 			300	; Expire
 			300 )	; Negative Cache TTL
 ; Name servers
-$1.sam-arnalsteen.sb.uclllabs.be.	IN	NS	ns.sam-arnalsteen.sb.uclllabs.be.
+@	IN	NS	$1.sam-arnalsteen.sb.uclllabs.be.
+@	IN	NS	ns.sam-arnalsteen.sb.uclllabs.be.
+
 ; A records for name servers
+@	IN	A	193.191.177.176
 ns	IN	A	193.191.177.176" >/etc/bind/zones/$1.sam-arnalsteen.sb.uclllabs.be
 echo -e "
 zone \"$1.sam-arnalsteen.sb.uclllabs.be\"{
@@ -26,13 +29,15 @@ zone \"$1.sam-arnalsteen.sb.uclllabs.be\"{
 		193.191.177.133; };
 };" >> /etc/bind/named.conf.local
 
-echo -e "$1                                      IN      A       193.191.177.176" >> /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be
+echo -e "$1                                      IN      NS       ns.sam-arnalsteen.sb.uclllabs.be." >> /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be
 
 SERIAL_NUM=$(grep -Po '\d+(?=\s+; Serial)' /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be)
 SERIAL_LIN=$(grep -Po '\s+; Serial' /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be)
 SERIAL_ALL=$(grep -Po '\d+\s+; Serial' /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be)
 NEW_NUM=$(("$SERIAL_NUM" + 1))
 sed -i "s/$SERIAL_ALL/$NEW_NUM$SERIAL_LIN/g" /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be
+cd /var/cache/bind
+dnssec-signzone -A -3 $(head -c 1000 /dev/urandom | sha1sum | cut -b 1-16) -N INCREMENT -o sam-arnalsteen.sb.uclllabs.be -t /etc/bind/zones/db.sam-arnalsteen.sb.uclllabs.be
 
 systemctl restart bind9
 fi

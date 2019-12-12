@@ -1,0 +1,5 @@
+out=`/usr/local/freeradius-e0035fdd65/sbin/radiusd -Cxl stdout $FREERADIUS_OPTIONS`; ret=$?
+out=`echo "${out}" | tail -n 1 | sed 's/^\s*ERROR:\s*\(.*\)\s*$/\1/'`
+echo $out
+
+
