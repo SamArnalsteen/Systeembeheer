@@ -1,0 +1,711 @@
+; File written on Mon Dec  9 11:16:46 2019
+; dnssec_signzone version 9.11.3-1ubuntu1.11-Ubuntu
+sam-arnalsteen.sb.uclllabs.be. 300 IN SOA sam-arnalsteen.sb.uclllabs.be. root.sam-arnalsteen.sb.uclllabs.be. (
+					2019110657 ; serial
+					300        ; refresh (5 minutes)
+					300        ; retry (5 minutes)
+					300        ; expire (5 minutes)
+					300        ; minimum (5 minutes)
+					)
+			300	RRSIG	SOA 7 4 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					F6mpxzbLacSeeTOdjwrIQS3mW5MvuUlYwV2c
+					iJ4yMi/N1307L61DLsfmxil2PI45jhiKQZjt
+					wnUd5cPMTKSjYp4sD3RRwzxwVLlyaoGlDJi+
+					1wvpIgjNm2JT9MhoennJ7vx9CWU1ee/GCnNj
+					wiW9OZ9bChAaWLzAG7B5sgdzEfCsLcLpHZPl
+					sgTMc7ySk2mo6Q80BgDnMjmIWRq3CQf+8Iew
+					SbOxvCchX4u29t8sYczq3ZC+Xf512vBv2QIh
+					9ieBT5X8s/OvB0vBT2XSLg0pScxJYM4ZYOA0
+					iWMAH46rnZbje3s+Eximfr1JJYB2maplE5Vo
+					VWRwYIngHgD2fyD/nQ== )
+			300	NS	ns.sam-arnalsteen.sb.uclllabs.be.
+			300	NS	ns1.uclllabs.be.
+			300	NS	ns2.uclllabs.be.
+			300	RRSIG	NS 7 4 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					W01WppSOlnFD3jOMILqTLCIddEf0eOuoZ3Vx
+					GrAKoh8FHVObdX6BMwozECf8307opzkdxAQ+
+					RqR/jOGagixXK4R2j0574iLxCjoFkuwCLuc1
+					Dnt9xW6u4plGwjw6AIRWKGlHCCnz+6MCHRvh
+					pdP8MKaBRj63oMZ6/Lo1kd6G4Zacd/19qQRk
+					LoE/BLZWJNIEBkuucqLSxKvX+z01RwvuyNni
+					ybLOSrazsGOoQqfm0fiohi5WwuTtvf8PaeI4
+					9O+hIchxuz37mLQmeHRvBf/659mJ8QW6Jcrw
+					uGNnClNGhWLNtBfQAR+NqtgnOppIXd3+48fx
+					c3LA2fZ+NaogUmtZHA== )
+			300	A	193.191.177.176
+			300	RRSIG	A 7 4 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					J5jS6sZerqq9q2q9Qj5C/ed33OiR/xHNnIY/
+					+iP8U/S2g7pYSCxscdNQsmbBgXUMiJ1suhDl
+					fAZVxQ++Y0XklmREFmxES5uFsOiiVJHKffQV
+					gDTIUQsrq+HlAY3g33dClAbYjybiQYsXTfAw
+					0wnuXdq3Qz1FbPaqWs1CV2s+rgX37/yTBHR3
+					6OtsXc8wJk8RhlyXKfvbvBDTtNPqLnbjGhlg
+					bjXhqbQYjnZtQWM68blrr/gbCwlqShcGwQWy
+					DiK7yfue6g8yhpRwLtMVuZr79+X3KbTf1/d/
+					U61HdpNPhFgxVBxuOZ5Mb+wcW15BHav4BKgl
+					2k5vRoHvZX0IsTaCSA== )
+			300	MX	10 mx.sam-arnalsteen.sb.uclllabs.be.
+			300	RRSIG	MX 7 4 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					rFKYKXIWb0FpD6v1t36shyJ89PbXAERxH6ok
+					3/A6GRzMIfJ2skqsNFu92w0jL12yVQB3A1rH
+					wfMYuIrPFgrAzzN1nLRgO/D+DfWpCsLX+nbZ
+					9XAx0n1L0RPAqyciyP0PPa1wACpN+eiya/Md
+					rNOIUrmdDeeB5B1nGjfKkWqOzagcDanM8MkB
+					nM+O3bpORf8h69sJ4NLVzWoPpH7g8EkGug5g
+					i9LV6QwtotSMZ4KKcQoRnXaJ5223ahgpeQdn
+					N6V5Zsty/wiqHVlq+PpnN3Sd6ggZukvSifNZ
+					Yst4QQXyRGrGxs+QRuDfhRNks8RYSN7fGkOu
+					k0dJoceaZS8bWiGmLA== )
+			300	AAAA	2001:6a8:2880:a077::b0
+			300	RRSIG	AAAA 7 4 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					ki5JP+q1+WPIkjIMN1XrGTtIUmIeYNkBGBVz
+					AVtQF8Guo0IxW0aOdcwJOQQzSq+iBPbje1QP
+					9dRR1eYkfQbKWlXrcRnDqdbsbMWcukm0rni3
+					FVxkzsh781RbdLK5VGiLbxPhh0RwplqEIBfv
+					vqMwlBK0b4EOzdyI/bOdnv7aYv7h3GHbr4JR
+					9ZpuvQRTIGr3JJUEyXfpJFhGIge73wC2OkhL
+					Z7zJ+Wsufkc/m2U/zGfmiKDyfSLt9CIZmMtH
+					445exmoMFbjjjREWgql4zYBW4MkwiIvv0LgV
+					QPy09VtfWkj0dNjd5kpPeBecAD6tzRqBhvkA
+					eRovIB/Mh5t5C6NiQQ== )
+			300	DNSKEY	256 3 7 (
+					AwEAAbc9phBD0YGKdaBX8GpTvf31wEYHSDnf
+					sA0OMSztNTejKCWl3WvExIUOqK6nit7eMcJz
+					4/h6SyWtR0LzQ/5upWF35FB4XQudZpSsIprq
+					lwwY+heHBF/YK7zG+hU5dfekjIygOb/0o3s1
+					zDXB/rddDK+CAYtUQyRbabcVdfFmZ/xZvB2x
+					Hz8ySBEga23WI+tuuLSkJJr9P4PVMftwsUOl
+					vc+Y5NbqHfKnRtF5ES9kJH/oLOnqrhxBaZbC
+					R6C6RX76Dm6/dHLFImKAR98ZcwBrVVBFBK6B
+					CsP+6aB+jpT9YjdPwG3Vk42PTdyzdYKbpQQw
+					73zTH17Gt0L9hYtGkRO2a90=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 18839
+			300	DNSKEY	257 3 7 (
+					AwEAAcOvvkbPaTDnflNywMIcZXYqP6z13/pe
+					MvyMwbAEAxFIdHgCgkEElde9vJlxb/b50W4j
+					JqiZBs/Ff1SizLMwgngVLte4XQv7MZ2lqzri
+					yuG21SHwzAg2TlO8iRIZam6X1mJnqHHZxWLy
+					LpxBybPVcDFt4d0RYjzJoaTQwCXSpszpVEmu
+					ZpDRRnxsxsvYRE1OuuylIuTjCDXWyroL5hhy
+					BTuXAieWBbFyLpptpa0vLtc2NtejfLoBhOId
+					47MLg8ssHB4KtQMXOfAGeg4yKI2WjCd8CIXD
+					kv6q28KrTh76N3AwfcaXHC2B+Hd3fKLt4MfX
+					wEsCwC4vvVLXKX0EmcLgNLwZ2hbpIG/6UsoV
+					x3NI9pAnk8qtFKKQ2kTZRIHR/hB9eTYw4Sei
+					RzxHxC9aYhJLIzySFgO8ZhBYjfX+j2DjVpqj
+					4la5GOgLPHk7qJ3YblCOk3hLBsS88XKoZyAi
+					HGAy3qUTW48qS0G46C3NZZikxHSxXSo4YC99
+					n0cbklLNyuu8UZCGkKbb0ymTjSiZtgWY4m8H
+					oQLsHqGEDa7egEbI9sEWhtkrzkt8/5dnZ36p
+					5p2ajp1IqRPEvmu4ucJ3OQ639cfHgdo/A5Ep
+					dPnX+BqXwrP54BnpsDT64div8mpORKLKftoR
+					nf0jSYXO7GaucoD0ku0MIY+hBzC5m9IRBhjM
+					eEpH
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 501
+			300	RRSIG	DNSKEY 7 4 300 (
+					20200108091646 20191209091646 501 sam-arnalsteen.sb.uclllabs.be.
+					Lsn18XN32Qp/EHjYbICzPKY546jdLVaM6wRG
+					z8+tsv7LQjkJn80vi1sMxcZCB9FHf7wzp2Kl
+					mjMml+uGojNoYc8eW9MyqXWZIS5AME2ZQE3s
+					VEog5XzJLtGf1ERbJfhLUjKgofWqHV8/0dJ/
+					x7118jMKbQeWq9yL4HuHOI5mhs4Wf3yUpSSB
+					Owla1UYbBOwX8SpcCz+dKuvCLKUkSxTCqIDV
+					YEh6g1UsCm99dSJbRp6sduPJ7m8Wpl3WZzI+
+					34GbP+UVAzGSXRKXQBzPmn69X8Y3NPx6Iy8M
+					1geAEwiTvdtCIhzePFrLl1pdTJmqX2ELPL1R
+					duGhjkxNCHU9gJkem/pz+1HwzrSWJ1hHWCvj
+					BwJ6eweQN6/A/ykJ5VzUiyPczquiEl+/ft+h
+					z8tHNmJmXG/so446fWSGh0XjpLRCul1ImPlD
+					WROgW1ooz7crLxMLLMhmYMFrStZG/T9E2djk
+					jN6Pw3WwgeIXRuwB0F8DXE0nfsA0UgocxG9e
+					FAMQDcex3GqEujoNVSAPJxV77E2VcWjyiLZ/
+					xi30x/3LJhiiBc/BEP8oPYGQHWKjV6uQvXAw
+					qhEpdoVyyy3WKG3XDLs0BllBsA8oWBOicTg9
+					rytregLLUKGIKgjBKzMr2qe14eYDCRmbtpBS
+					RqAgLwXqc63/MpzlmHsv9TB9eP3yfVhKZg8= )
+			300	RRSIG	DNSKEY 7 4 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					fJQRv+KgFJEB08yHQXIYzkbneBhqZpO9+aJe
+					+Ew/wugrpyjULvAi2v4sBGOIBmNICauy0Gh5
+					GrWnkFxtv7QbpAE4mlwokw72v8lJ9W6MvClI
+					XME0GZPH6N5TBuv2YGm+C5mxWhDzACLE1JMk
+					NqpcukrQnCzGz+nOmKzg/8lHfuXi8NKW6mmb
+					ycGbVVoaym5ZcAgHUQFS02XaRxBuagQcfcah
+					gTchQee520V6mJjcA4pXit7m/lbwRClr4t3u
+					lHhDbEsTfyuft2TcoJqAwFfkMYKE6Cf3lYEF
+					n4duIWT92gpoAD1QAPTrcKOclcTeETJbHXWD
+					b+n+MLBbbpf6Wfv0qA== )
+			0	NSEC3PARAM 1 0 10 6D2D01768FFC7B33
+			0	RRSIG	NSEC3PARAM 7 4 0 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					d+ZifiMYiNXJXB5GZ0wHEfXne6y3bYCkC8Hp
+					eXxxs9Xlh1TPbHMUv4Rldmm7zFEIu47bQZel
+					FAHu1RkkOCwEuWqDuuZos3xnM8ClV/FO8LCU
+					OcCBThNJ4Rojg0G9hZil5OOPUgAXtiyOOcXU
+					MuFFHyZpxsgjXzjTxTcWXTMPyNUbEVMVzYTM
+					w+xys2BDa0VSDeUUShhO2ORVvt/Mso3QTmSL
+					XfzHJCU42ADxoe69palhBT1J2NDDh7sD6GYf
+					jl4tGuy7Mmg2ut11ihJvvAw3iEbtgRMKYwmO
+					EIE+WJiQOvr7KELdLR/whqdQg7lENaFDTyVC
+					/YEQx/mKo/LpZZEcaw== )
+hallo.sam-arnalsteen.sb.uclllabs.be. 300 IN NS ns.sam-arnalsteen.sb.uclllabs.be.
+ik.sam-arnalsteen.sb.uclllabs.be. 300 IN NS ns.sam-arnalsteen.sb.uclllabs.be.
+subzonece6coo.sam-arnalsteen.sb.uclllabs.be. 300 IN NS ns.sam-arnalsteen.sb.uclllabs.be.
+ethi4e.subzonece6coo.sam-arnalsteen.sb.uclllabs.be. 300	IN A 193.191.177.176
+ai.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					e9hQFvLlhzo/hxwM8gKgGhWaovDO+Vl8dDn8
+					vMIQcuGcK6DtMACsar0/9rVAZNIV9je07GPY
+					Iy/AS10cj2wptm/FZxsLrtXUdAa5YVMOji8A
+					50/16kgq3CCT7V21sH0zaNF6s/VNEiSnDn4c
+					1yCMRvwxN5BjyXmK6IiTUGJNlSAWuFNSvo17
+					bmNgvo0AqtxWdjeKEDfiBZz43GuFAjfxPQWp
+					cdcfMcGZonIXQnnQGSM+RrBt8rsN4fPoDiPS
+					Pio1QIx/NUK0WUdOzxbhBwMJ61R2HKsCCfOm
+					GErjdI/Fy/9mxOzIrji8pKVKttkaXhGZkBek
+					TsSRYPx75oaDnhRWNg== )
+db.sam-arnalsteen.sb.uclllabs.be. 300 IN DNSKEY	256 3 7 (
+					AwEAAeeJxpZeiZkLtj/X4l1Kb/MgyNZxob5u
+					dlpauNC5tmMXu0eXumbgdXWWZHqGYrB6KE0f
+					cXZDLoXqOnk75n/oItyqZjYm4XJiOUmFmX6h
+					FBRJC8xGN6FEnKKnkieu6TJ5vGrKoSn1wwkX
+					iG75Ozmk1drBrTYhHSczfcFf5Qm9d0/WhOJz
+					zQbegWk6Y6Q9n2snuvKi8C73FjyjIcw7+EiR
+					ukTc2iB2pUCQRjlSAB1sR/93evt3akpDh55U
+					rUpGkc2M5fWTZDxX1gNEHo0wlYOqZiNYlLYb
+					uB1W1Zr4xgKLIz4Tc+US57RDINIfjK8rDhWU
+					0HYsJam93ZnrNmVwbUHCnts=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 35432
+			300	IN DNSKEY 257 3 7 (
+					AwEAAcDBaCbIyfirqI2lhJNBvOv8qD51XNZ2
+					EfJkXS2V/bnyzdXak0T2nAjtdyJq2KFiDlOl
+					C7pu3Tf3T2VEJlSt2ppRPwL8rpc6lKqjk6Ml
+					at9ubFiSJPehNn8UX/kJnmSn4LiU2bYMuaoP
+					TiaQ06gXTxF5YR0AwjShqZJqN1oqUocTTz8O
+					NiYKd10HYKNdRQa4jvCr0UI8hSsJyUfzIahe
+					c4OhaU0JnNIUlSHxWIshd/GR22uCanBgYgGK
+					F7k0nlLBWcBV6uCy6NVMEFa+n8GN7DwA5LFk
+					Gvrh8+G3RGrBKFM2rB7s0bmd0aEmwdiMC5X6
+					LrUqRVT+po5/NTjycJiHuiT+x2exXlVVpFAo
+					/nnYZwk8Vs1ANsssRsymbbmywH8eKuA8/vNi
+					pjGu11VZ7xImAzvT3weX1Mli45SVbR53/m1S
+					LeVu44V7PEbTg7/p3QTr95K1Mh0XOWL2rvGH
+					Q6cw4pkrw+/YM1u7dL8sqNMn3B/nqW6ZBHKM
+					fUln1qZSG7T27atR3lahCgyIIkUem6fG3S3c
+					nqsDeHwX+btGegJFV9UMvXQ7bHhY0vetlN6T
+					wGutl15Wfvwak+wTjIo6PvRjnDDP9RFlSq6D
+					y4o4UPVTOnFNojHz2DRZmzmj20gXtxM0vMal
+					MnAZLPaJs0tUflEg6oK5LmN65DI7lKbGNAb1
+					CG0f
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 47478
+			300	RRSIG	DNSKEY 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					ava9Vx5az3zYGnaHgm2VXp5IqXRjX1mAYpOq
+					DzfrudV4krdcWDn9cFe9XAx/YgMOZyI8l0Rp
+					CHdXmm7zAArDn/ikEEmoA0pfgienbbrhj8cx
+					r0Uznh5SadByxsUjSnoNnU2DRlOEjzOmmiyJ
+					vfTubTsyxCfsegzhJ/GEfUmpmYWKsTJLOzyS
+					eRPx2PA4DiYU92jGlCU/vvfET2TiTbQdFFkU
+					qRjAvPLZPpUu18hqYR6aBQY6wA+mUjuam4Oo
+					6QHqWcgA9A3R6pYls+S7JJJmbakzxdEY88Z1
+					gnKyLyjGf77DYuUNZrLvazM0RporxbrovzeY
+					Jqvl0scWnM93aoRlXg== )
+monitor.sam-arnalsteen.sb.uclllabs.be. 300 IN A	193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					IsnWDzXVyTgaRtOffiyyg+p3CYsw6Oud3p6x
+					3k68MOjR9Vsurce9cgxFhHuxLr/gYuntDeHD
+					oowBCWTfPxxQPjupuCL487ykcMmkQkAYv+x+
+					PYlID58FRxp13SS28cgLKIHSUHucb8575OiE
+					o0SNj/K+s/u2e3SWHsWe1r5nODQRzweqEF/x
+					q12otIJh1xG1RLHQhnaPx3zXkRHFAz3sJz91
+					PDz2Vt87XU7fap5uHO963A5H66ACsCs+wMSV
+					THyythN0tiFNDqWoXMUAKCH1hgGY2zlN4EXH
+					9F52/GLJxDNuEBz1ACppFr8fXTiSxfLuc2Yu
+					ZJvviVdAnFScqVNCKA== )
+mx.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					ltINhgPTW+LFCcvMIn7jxPZiJv14sY+4Z6Dx
+					/tLj+IU1fC1ER9T947CHbnKED0E7zBZQG9Hx
+					7CCbGX4ushNb6+DlQGWMvumNWYPE2VayTkKm
+					j4CTXcLucrDN1fK38RvzqFUnzthEnSoZ5DDT
+					cJidaW26EQo8eWJ20JIIV1Fi7rUQfZk6Klyv
+					sY4CDhL2qIOUOTOqyaOd0MDlalefOQKNQ+1H
+					Z05F0DXohkeXazG/K0vgbe/qb3K2I+1e1jfr
+					tynBdMBjjmn+RYDmxFjqHU1V+vDbFEOM+CC6
+					8CUCgY4Rd6jTfHttFQxfqITOIiKKUhPsVUhn
+					KQoKv1IajKC6OY5EJA== )
+			300	AAAA	2001:6a8:2880:a077::b0
+			300	RRSIG	AAAA 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					kqHTJ1g9lcRpyC7PZdEr+P9aXLRrR6qeBI4Q
+					KiBcsO/1uyKJbmcxSAv6/LTVHHFUZ4yud5gu
+					C3A3p9oirjcVRvu+piPtg7Ysm0NbZXpyc8Co
+					qthdncDsh6cuu+b9Uxbrq5uUpIGTrG+H0bb9
+					TuNhAmKWp/X96xx5c5L97iOLFWIlJzMazhL2
+					oaWhGwJspQsXcyM96sdQue0PbfqJ4WR/iK7Z
+					BVLUE75SyM/+56/Gc+1RtILj8RJhqz2xgYum
+					mdcWbfHnywCJI3UQ40eYZQMawADZQPq6kAU3
+					2VSn7xTqal5DVzjapsDp5aa32OHllNqUSf9o
+					Seh+QMAn2T/rEleQWw== )
+ns.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					rXiZAyOff88bXX8Z4y9jqkNhhqe4ErHmQzcx
+					cOOWc8TMTXKXPDHE0CVWu1xIRv7Kptmlr+7l
+					ulBykr15prbNS8J29xLK3eA3yrlsRfqxj9Hf
+					1C0cu4sGXM3bBYQNee4eOYQNywJhr3X6ncPA
+					N0ZAEkDnDaCoMOs9yWvNDYAhim9Np7d0i+xs
+					cMt/wnMIpNKFL4pxDUGyMm36JD6bYh3lo6QI
+					sJ4uf8rNsO3PJ8fBX74CtU09MoQkMe1hsL+M
+					box8DI69X1YnejazGvF5sulENfYCPsxoN/1w
+					zLvdnkQclYazr1s6MBx4gfgN28vk7GvevkO/
+					e/bPyvDrdOAYwjtBVA== )
+			300	AAAA	2001:6a8:2880:a077::b0
+			300	RRSIG	AAAA 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					dWcoMmS0fehq7/OzL5gSkG4j2nyp1UQxXMGs
+					H86kNlUnIBL9XrTJVBirr38YMHTEosB42Tap
+					KHYA0+KrplYpGRzQdUFysTXwpFzER3pY8HER
+					ZaOQIsZu3C/Y8OLszrrhM0Xwp8vcYiEmoxWM
+					IK7Z9Xq2S2cQ4kuPFhP5iz6q6sK+Fb0NbyXL
+					xVaPFJekMUsirbxlcylAEaJP7HHfq5LH4TNB
+					S30osPAZNPKdM9lgp5ChP8EINe3T5+ELBhuS
+					NSszIg0ACFVscyUBnmXb+ByHdHC3C/uVb9po
+					jUK8rh5seYmkNv5emqMol+4iYcGn7Uz97AqK
+					H6X14xtS5ZrMstuEiA== )
+secure.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					lP32lIqOXR5HXN3PXCTEzpZxaPUWnp4IZYQu
+					3Vx+PZ5072WtM3Fijpa3z8TXHO/eA+Tg+DnX
+					N4xypGFiH9wg7Ls7Btqv8Beu9zgUrzwYSxNc
+					NGWskZ7rcRf1f8yv5BwQPgVOegquwJtQ1EQ0
+					4MfXw4i9mOnfMwwvqxdfRPaxyDPRGW6mEQUu
+					UGkFoES91+7gbnzAEvbFMZkEuOv5+sO5p1+V
+					m8DFEgC/5tWkA//VL6FI2VNoclrKZTXbNG/N
+					D0FRSDV69DlPIXJrS6GvhuvgnZ7463micMh/
+					9mWg+Payo7UqANJbtGs50dvcC9oKJfxZHuni
+					np+wRSmIheJGMhUEyg== )
+			300	CAA	0 iodef "mailto:root@sam-arnalsteen.sb.uclllabs.be"
+			300	CAA	0 issue "letsencrypt.org"
+			300	RRSIG	CAA 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					PZNxchs2EpYjppfLi/Da9YWC/48add2MKloa
+					6Pw+ppyPmCWR0t+Q9NiboymkxO7TuO4ReALf
+					lOgiRw2kWAAYPEr7fwrmsmw3o8wkxefJ2irq
+					aWCmSjBIarLEJln0rR89ZVBEASuqx77n9UFj
+					BMvcBcJ31lSSqBOtGeXCSxjHIVJNrOVhLpt+
+					RAq9IV1LaNzrfA3iQop185yQQdc6s81W+hSd
+					4GFDXxNP6zVWArohbO7ciJHf17nKMJqFqwlV
+					Y5qt7NKWuM15SgiHXcSUGRnLIE0yC98Yc8m0
+					febzymTtLkZnaJAV/sNSAnXhAvppIUwR3M9J
+					uPn7+/tgPYyT+t8b+w== )
+subzoneahzoo9.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					rrRHa7hs1BVhC0zZtaL0JPQG0m9+V82kjXOa
+					w3NdgqGYl1J7N1xr1XOk8YEkId+DBZjJIyh8
+					IEjGEKr8E+LegrIAzG1zjYF9T/FkYETWQny/
+					tA+ZKbO/A8GKCNMjmpXCF+tloh8K02DyQMvI
+					f4oBBJLGd8eVh45j+V917IdWryCbaWufk9BT
+					x96dX8HsSkqBK8o0IS1XAQWszadm5+aElkfl
+					wNzPUJ9cinQMY7H53KEofyhwoXYuZZmqFdAq
+					ouMJPT4gGAMnwQSIKq1FxxHvH3o/tyzJXtNY
+					esLcSLVAHIcpG4c+EXdgVCGI9A2+5aaxpitc
+					wiRUqxVDTPGa3a3/TQ== )
+subzonege7foh.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					N1/CmhOgCU9iIJHW3nx6/HVrom4n6dZyoBQS
+					p2W9LMwtwWjrr/6ddZkRLdW+4aiuxI8xYK3b
+					Zs4u5LC+dAI72VifLRTJ2l/jHaDwwVw5V+1p
+					H3UhVxuXkYA1qPlgfANUhCwFgdWZzOkwh4c/
+					Rkz3D5+KG1sVD31xIhNnTcDZOLN9R9Sh4kxW
+					Gb6g795V5HT1olml0t2gbR7pB8CRGSUfwBq0
+					Tbik61imcHXyDfgijkP2+V2syyhbrYWJFFdk
+					lSBkHq20WGV5JMye5X/tlt8wMfaLJ9uAC/00
+					Gpm0DAw7QbFTgke5kjeHNJooh9Yt//5/9LhA
+					Q9HB3cEsh9WfV9+qxA== )
+subzoneohyaj6.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					OTQ/3WiQM5AZoA3ZAaTBKWiWqAKoGcEclPVT
+					+i8/xhTYFE0DDycHqFcdw5nMYLSS2CvBK7Zn
+					OdylcQ7Ziv/2zRvVvx91LoyXibSy1EqTTx1i
+					BMEqX+pWrvYmg1G3XGlawU0vYlFKiTSRSNOe
+					y0Ukn+FI4tKE1arso1Lq++deA3/zcP4KguXo
+					7L97TUODeJUkF85rYGjIpDK9BApt45lLZ7dp
+					quRAiVqhcbKkvIlegwhTNj0J8ft86Daprdd7
+					BtH7m84irO3fyGWLD1xLghKrscW2u1SmsxGp
+					Qc2WcqGS2cPQqn5D0S2vlMEMQfYArIy4TSM8
+					g/IX3BVvKFCLFbMoNg== )
+subzonevae4ue.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					ZDcxduFe38szzyG9kEWnc65Nl4c1PMwXtq6z
+					fxYRQEibnkvlwTsqHtTTkLe50kBDdiEw0w8e
+					DDefSdY51ESRtveZ5fAAy1LL9ErQDZ7nbY10
+					Bb7i5u3k+KjegWOU+HNIMfyIQHhbLSVfWMXi
+					Sn4qHNzHHfhwZ89Ad8NuZW06MfIQOlrQyS/h
+					g24MjxF0RRjz4wdbRXjP5EebDPzetIx+PWZ8
+					Zol6AmEPYWPCao6LRnykvqyoDiV9Gi2KsC0q
+					1keFecsWG7yuGVVZEWoRFbBUWG0UqI1WGlNo
+					S6kQxpiFpi7gogcKyByiPVNz4EXHxwRCh0tE
+					RxF8dIYlqrIaF1Xn3Q== )
+supersecure.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					LJRH0+25CrFnYoh0QdTWu8290AP3tJOHMmsm
+					jiEPnS8aVofJAzkSYEgeVGmbw5MzljJJe86n
+					1+bnDt6sqbqw0BgBsQKKQExU4mVoRqJGTEkH
+					9BNOjDYzEZpXsQwO8RD6KJkdsJRn11m8mn0i
+					fLhfMFjwWiVnUfLDSNmqW2hNShXLWxn86gv3
+					yZq6O61kbZllwNdcZ73xjyv76RW5HEfiKa+v
+					o7vG4UixKlRcN4foILuAyNyVQCy3GEtT4J6X
+					Lm3v7XNStzYqIldkg7EGfDZGJouwQM7QC6OR
+					0mcJ/n3r2KrQ0I35gTJclWv3EPXFu/rZuzPa
+					xPZrblq3TrQJpW8fcw== )
+			300	CAA	0 iodef "mailto:root@sam-arnalsteen.sb.uclllabs.be"
+			300	CAA	0 issue "letsencrypt.org"
+			300	RRSIG	CAA 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					C1zKDFmqBStp6zM3aj+6QMh2Rj64TUpLVt6h
+					Z7RQBrGC/xpKU3EAWgAGmmvxqsP3Rewt5DiQ
+					aFVkBG7IGmUus3hpWZzsAh5BzKMePbOkddwm
+					XlCecf/pUom9Oe8N0E/ox8wee8YH4bnvGzYC
+					bLt2tTE3Hqo7zWAFwStp8VGDUMS1itMKxwgB
+					OXsOUrNIu53LuVkBbl/tbahI/LlqhDsQur3X
+					gSHrZkkJQ4z1JxDvdpioHduK4e7OX0OsaRI+
+					lQKFYD0dA/hM8hRvl0VVGFsT+TX0re1jFWrF
+					3oiS5ZXOMnY2Z55+RfASSGqLAr6EEVbMqavg
+					zolH2nG1nFGnQIfCCg== )
+test.sam-arnalsteen.sb.uclllabs.be. 300	IN A 193.191.177.254
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					GNAVMqDgDQGLGh5Cpi7P1gaeViqv++kji5oR
+					WiI1XY8ZKtHq3I8wHtdWErqbdXA/B9zBkoEK
+					xl8QOgUPq28t8xKKEkyUvPr+r/iG2e1jzP3f
+					YExLz1L0Zz6IGTmGGSCVUaA71rVXQwbxR3GI
+					WY10XODX/uMcbRhHCvYEOsptz+0HTKEQPULn
+					x53JKbmxaI/l8fHE+R+Wqoc2CM0iT0o3t/wq
+					b5ucODCVatuucg9TI7LkxB9kMwPvA6Fb7Xo0
+					icLD7j96+IpGP4PPm57Hg7HgGJzOqItNMz78
+					pMPcaORpmpAQ8SWWnUyXKcCKiNkMPkyQf+Ec
+					KzXSS9i9WuCJUfHJMQ== )
+testing.sam-arnalsteen.sb.uclllabs.be. 300 IN A	193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					KASDXJ9xlLu6v2V+Q/2YjGwfovgw9XjRlVxZ
+					JZDaxBxdqNaGYtu3OqZz+nImhfduShZLWjQ1
+					EOVLWizsvJE4viNa+OBmxVAHlmZPvfZJVUc8
+					i1QJ+EzwOBXxrtkb6RHBj6F5dknm+TrAQKMu
+					SMV4nqYiiouM2vkE0ao/OKYFuXiTAaTMXOBV
+					NIGy+4M5u+NNXRQZGwOnEVFonjuVZsBg96ES
+					byWlaNwM0Xc5nGP7ofjqgrSAB6uN3ePcYGD4
+					S1CqQRTke9Qv97q5thbTdZicDl53NNza9quc
+					U1EMNpSoimU4zDknhHEFsOO3laJgaNg4b7Ak
+					4Jx8UPcTw73pP5eDtA== )
+www.sam-arnalsteen.sb.uclllabs.be. 300 IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					G8rfA+miM8k9pKM4exSC8az+1r5lo6SOhBbd
+					E897H4K1bAfHh5efgqq6iO+R5W+EaTHZPvEM
+					oXMayqdTasy9r+cfbCH5WeO4jPs2o924Wg1F
+					NFdO+i09HEnzFQeP2k+IrEGAfVX6IoL6fSUb
+					UsD7HrTQB46GMgDZ5eW7Ryzs/hRDY82xd25x
+					aCvG43PQ90H0MayeniEGfzjaZlxQ5X6mlPJK
+					EVFjL2IvpHBJuvmhVtU8gjjtIQqcjx8XbxOj
+					7St3Z/vuILpoY5pu1GpYAHrh968gvOIHkeKR
+					++3zrDXml8V5T+c/5GilPaVs2O6eEB4hC3HZ
+					Kn4fKM9BmvNbkyC6pg== )
+www1.sam-arnalsteen.sb.uclllabs.be. 300	IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					ryU1wt9W1s9xd5f7hl9u6CwQG4NG5K5Z12dz
+					rcCotdSoLPMgA/fJlGo1dx5zsohOS2G3YEVN
+					zSAQwiBdpqMg0MvH/W+HedeyoRPOoSSekgFs
+					zUaB12YhxMUvME319RrH8pqtGJg0sWFUu20U
+					Okk1L6ywIPEDtRoMU+66aPzfb73xRV0g0CBH
+					gU9c+oYjYS6zHMI5lBAdye4L67LxCe8oaRO3
+					MgrklDV6NQJFcBjreX3wQz4zWAIIGM/+F8E6
+					flMUSY0RfssipiKlL0ihxMsHP3QtwEpUQLmf
+					4IljCwlOnnUpwfvJqEX3XQoIQKoBjcZVJdNS
+					7Arji42s7X1JhRbUiQ== )
+www2.sam-arnalsteen.sb.uclllabs.be. 300	IN A 193.191.177.176
+			300	RRSIG	A 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					Wi7YLtq4Z9MMM9go/nD3TSO3WwaeZIpVhqdg
+					FY1JvjD32kYm8gWaBWurjUVDoVx6lH9dpFUY
+					N6Az5dpLS5TZ4/wqorDOleMLhpJt/QEKzrJX
+					nFVdlj/XHH62L5wQqPWHtudyk7b7sDXgW/Zp
+					ALQglyepiZhBnoCJV3fgE5fKl3vduziHu3nQ
+					WWNpvLnSEdiS4DRaqBQfNZhSawBULm3jm3zx
+					jFiwmjMoB4S6D5EBXuthDX3/G2SZxdUj5CrY
+					oIyboALvRZJOrrSoQfBMOde9IxZF3RD4AJ/k
+					AjC9ojSDG0jiq0BgVLfl+MfiJVAN9FDycqHm
+					RWt9nYPq1CIcs+baIA== )
+4T55SGJR45KMS23JRTQEVH41GKC90686.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					58M4MA64OT80HN23BT9OO3B9HJHU1H3J
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					HnEAwWhVI2DwyU91QWBMxg/lmbCy/bqzro2n
+					9bZKZgURhEvKzpdkAK6YXn+DJihfktjAkD7l
+					cnLiXVFd+1jUgBPdo+q8pVLcv8nznBhbZQY/
+					PncAZvK1QCpxOL5HJR7Gy/XrvmHqWBjjXdex
+					sWwWhKCEAkd4kgqXtJgQLlVj02VLXhcHbWy/
+					ybiizb2sIBWulkJlo/18ARfBxBRaeMZDoU/N
+					pq735zVApftrqJJUsxAbt9aj77lT5EY02pl3
+					bwvV8Nb4rcv31hlIOoNEH6Jfpmy+3b80MTBG
+					pDFyuR9axHVHTVKD9lmUNeX8wAVLAmExZAmn
+					q6/4wAPFT+KOA74d1g== )
+58M4MA64OT80HN23BT9OO3B9HJHU1H3J.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					60LEGSATMJKATEKFM1EOAHP1O2UDBI0T
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					WHZKtcPo/50LbeeB1WtthgBLSqF5L6exSl0v
+					ZulzsisiE1sa8A8QZXYvWbmVXKooKqK4SFD0
+					bW72WGDKME3UiIIadOv6kMVrGzt2sqMgKNfS
+					AF+ZKIPxXoAoabUlfivCQjX1+uFqmXo11glZ
+					WqCV76n6g4nA40u16kU8HNdGa5ID2iuJGBQ4
+					MWYrdWbrk6TGtkLrAjElwxi4dtWtGvfaRh4N
+					ac9jy1zvT4V19hPcUArF4iFxgUHGrRM6RWnm
+					YoytVtIMNSxrW/Upgaa0Tv2N1tGcqOGOiYmN
+					dtNakCCkGePDht9u3TViNUNvhgXbWqFKYs6Z
+					DsiXk0fdxND82OnyQw== )
+60LEGSATMJKATEKFM1EOAHP1O2UDBI0T.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					6MG0E50GVOH8HH6K521DD70BCC06CEKQ
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					a+vohXMe1TTE9qvaDAFxz4VSZwjNVnXt5I/S
+					q7r800k+eva8JPAwa2iOsOILT9qtbdkz6/y5
+					9WdDo06i9iN2nkrncSm9C/tPMAId6jXybNA2
+					rI4g6zMJQgTO7a+Sl/WbIj/Ls+QIj3SmqfjH
+					kQf6edskyA8ZXYOKSsc0CEfOU2mTfnkPHaxn
+					w1oH5v5umOYuAQ97uMKWcCE+Oy9tq8gzMBQl
+					JFQCEG1gqtsi3tP+FfaTeNRQb2SFNGWsD4iP
+					rbkCaQEMWU6TdHn+SOmAzl2dCYWBBm5WaviM
+					PXI3DHSwhkQPJ3YatFonte+cUTQ8v4kDwci3
+					Cv1FElKkvWdlv8Eg1A== )
+6MG0E50GVOH8HH6K521DD70BCC06CEKQ.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					6RP00OS4UGCNTLRV34MD9GIMA1B517SB
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					DRpkx/0j2ACr+TLA5MXPHjbn9WVdubNByfUl
+					p0zOgpGt88AgphtkGL1YSsc/HH57fWWw2UFs
+					B3uLWRIx7YICKHFzuGd28ntyqJoKvJZ4Or8p
+					Ktk3rBRkq4bHd++Vv9tSo3l6m+u6q6ebUMuy
+					ROObqK6lKH8Iccy/LJoSUmla2kCeYvUAxIb5
+					0sxDw+Z0q913Gu9V6fV/gPa3P5n6Na9hTDS2
+					208vJW+9gzyLUVczOZC9GrYviH6WaHWuQnUd
+					pcBzshEPUWMBp6dAHLqFPoqpMOOhqBv1BBcm
+					Hq62MXh8mUP4cUy0/UGykI8yWaGqClGLJnvr
+					A5Q/thivW6r2Q5TqaQ== )
+6RP00OS4UGCNTLRV34MD9GIMA1B517SB.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					8SBQQFSDAD20DOTC0DLL1IIN2OMHCHF7
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					oQkifj/onazm1XnaZSBQ1IE3m00CFCGJe7zl
+					K+nR+3TNIA+uYo4P5O1mfW/zupu8tQL318D4
+					tuM2Ae+FEYx9UWggTfUYuaG57z9PCPKEbt6H
+					fz4RmzIcSNvYcXZtMZinQBxZjcHNo67rqv50
+					LgYM5UZCVcPkKHBj8+c0K7JDVE8pygdIg+z/
+					YoxvMg+GIs9LD5CDykXf4XouLdk8/hLHHV+u
+					zULLt41UlyerOjmKV/J9p+dUgAmj+VDuhRdM
+					1b2DVK1vAC2adUikb6f2TdIv1B4r4h51hm1D
+					InADyVFxatYJdN5M6+I+PkAmUV0SqDbZ+bFC
+					VsU5GVX4gn6+LN9edQ== )
+8SBQQFSDAD20DOTC0DLL1IIN2OMHCHF7.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					D2IQJSK2NTK5SJIUV66QFCFQVP5F670N
+					A NS SOA MX AAAA RRSIG DNSKEY NSEC3PARAM )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					NvnJ9AcyBelMlDVyieHC60+tlzuzHG6P6ARD
+					+xHTt2/ta8PhNstss7B6KGtU//n8R626RY/M
+					VIHwnVeLKUQONqVJYbuvVIiMqv2064+KEXZk
+					QLuM5MSxFa1xGgr/Jw0n1z+xE96JfBSHC5KD
+					2WhqfKQUrVPgzvXbJvNKpND7ZVxLDginuxoT
+					6unL7+B4isf62RXYodXBvpoWoSegMyTQjYCo
+					Nm4cNf7iepFPnBkzFkuA1o8Y+5z/g1zmSwQg
+					BH4aE/CkXNDsGhlFTMXoS/CptqohMsWGfCND
+					X78V8AphNkoWzHyTkl1IOfEL62ftw3kTYXHg
+					mtgp9cfJxyUDw26WFQ== )
+D2IQJSK2NTK5SJIUV66QFCFQVP5F670N.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					F91V33C5C0P466IA4NCMS6N117012KTV
+					A RRSIG
+					CAA )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					jlRcYTYGj7SCpuQZk9HysMUxiQYampYs40aA
+					crMmCDGQPfRIdlxFEKxTT/iJqrw+wZojNqge
+					1JKPgNr1VVUfSAYV2Pc79CsSlBZh6EvwjXft
+					XQO7mIJGEAA/Ks6i41xkl11QaWpqpSbGXOOU
+					wSRyUJZgEkIhHE3dprkOJWU9Kj5+nUQ4Balo
+					IxMATXHTDn1rzpwbtfqaNYBN23fUHZ1tcZub
+					B2UEq8rdkqmL//W4woeoI58m5CByzIl5I1N/
+					z8ntktcurfCAtiQNYj++d3jU0+FYa2xR92Vd
+					CZOmWm43Lox7BO2O1B37MNme2cGxz0nPNQGq
+					casn7NAf4CuY5sjFXA== )
+F91V33C5C0P466IA4NCMS6N117012KTV.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					FC8PN9HBO0GLJT12H6H3QJP4N20A3URS
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					hvRKgpYLJmh1QnXFjI1y4aFDTtkjyfrMAjbW
+					g66ThM0EuadEcUd1tf1M87ZgieelG/uZNnAi
+					f/0d5ia5aqEzEKV+IIUF9osD/LCZFzm3+go7
+					X0FD4V6gHmk0HY+8iJjCvycSV8O50TE7qoPi
+					J4HdJsgc+XaD0PxmtZ34vKZSe6Z2A7Ckc7kk
+					NvefBZM3SIKXEFHU7OoyOTArFRReH4ao+Pfo
+					eYNAY9+CSjg5N2oDzTJ571VSyMQCLTsgrxIW
+					OSDfkMho5Dx4B46QRSL86OCFAT0WjAjv2CTr
+					GWs5+rdLQw7XqMnbcQFQK0CfSCw9DuorCFdS
+					dGZs+gwOQAbM8L3o3g== )
+FC8PN9HBO0GLJT12H6H3QJP4N20A3URS.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					FL3M7ISERH8493OQB0OFTGCJB67ET76L
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					bTK9+M1tBjB5hB83LQO+3jlRl8f/VIH+yo7z
+					0VVACJQEtDKHsLmd9bD6xtGg8r8xWPlHsGQq
+					WzYm2EkJf1+sv3+OfzFwWPhJQfO3IBsBdfYV
+					U4rWUPOjsoxnrS+EPmA60AgnfiFDRwfxbhJy
+					3zR00BBUBu9MM6RBfJInuavNCM1RoNaq3k5C
+					nqSD8TUscfAUFjonUYmEGC6zeU1Wmmx5KNki
+					Q5TZw8BIwtRplNacn9ZEOAYqowd4CjUt8G5o
+					ttJdgmu2vUBAE0HChaQIb2U5FtN8w8loLvEY
+					4V5a++jazimBYL8IIRrFgTlKoHD1PSrzdGdS
+					nbew2U2oc7Ag3ax0yQ== )
+FL3M7ISERH8493OQB0OFTGCJB67ET76L.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					KB9FH4K2EDMAPIUFC3O8PJPNBO2RO20E
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					Ks/50afzgCPYi+gy0+3VY0jjvVy82uzH58au
+					F7tn5ZBtvtTKvZzZx4osAioXY3WnwSiQT0+n
+					LGCvZMHivGo08Bt6+kH6wczsCw2JtM4bbGnD
+					gFH/act6gvyKkDc/++PlCgp6EjbjsRIGV6ak
+					p3xJqPpYrLzCt/Qpay2PQ1mXgczA9njWvgWQ
+					tESix9b3R/Rjb0VIfNYdtYzkxw+mgr68aM8/
+					LelWH/Pu/yoZMhddjebkcsgDqg3/sVPnzTQg
+					AxsBfoRFYMKxQyIIEFsjnBlRuRa3XO9/m5BJ
+					02nvDqrA+ekhx8I4d5pP34qc5SaynOjfgWCj
+					zhsUfD5JMiQ1+3Oy+Q== )
+KB9FH4K2EDMAPIUFC3O8PJPNBO2RO20E.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					N0II619EUV8DG77DM8616IINVB23LJ7V
+					RRSIG DNSKEY )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					rHguKWoyhsfqugcOLWuLfadAFBXLimdAmxYT
+					v4cvL6tHSWz0Fn8eoT4yiyE4Qif7bbqeOj70
+					krM3OESas9kgl+n/sASXtWpbrBiyAROH2mtl
+					jlNxDVNe+s03c13hPL9qcVqi1gytPgsshXh5
+					+sOJbJDMaNzU2TDfYcZqDIaBW5HbKTjZ64LG
+					y/MaKtXXI6mV1v/7BBy65CoxVYRXhTWwxuXK
+					2dZuiZD/ZDok2zbb80wcrawBZBGTQjqDb23w
+					ukacgsMT0Lmijv7xXmLnJdOXrXIkbjufUf47
+					8b1JaeoLPdrwwJV4GFwKcdqk2yFIpTKoHWnF
+					VIbTpOPrAgUNH/izzQ== )
+N0II619EUV8DG77DM8616IINVB23LJ7V.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					NE93ODT5UBGDORPDVI701GKM928OPQ7F
+					A RRSIG
+					CAA )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					oIiH6ZYiC2WYjK13x/XliEG98FdlDQ0vQSy6
+					GMZaEnmn9hsSalOMvpmeeFlYgoZP84ythXYl
+					0bUn7bCrlYobn/zBHA0t/o2r7zZsESJufuOc
+					N+8FB3QpZBXD9qV6w9xEEfBismj2jBJMB8GM
+					O+QrlG+ue/M04gWl+emjlyhgS8XzpwotWCyl
+					jRzMgqMS20V5sg8v99eqgwl1C+xc7Ocki3YE
+					TV3pJ22ImxgaO7e/N4O9kTP+y3E4qOvKAQOT
+					5IpHP+2wLPZhJc8caGgKHWaRiUk10JdBb5z0
+					AEHo8gIzYr0a+msp6D0fB+8joSQevkT+HezZ
+					XVp3v3Kikl2OsC0hYA== )
+NE93ODT5UBGDORPDVI701GKM928OPQ7F.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					PB6CSP9HL4VH3SU61VIMQ0664K6OEJ4U
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					NGWDXnNgzgKWUuzOVP6ylPKk+K8R3GXwnwBS
+					TtIWVcGAmpp8/HD06Z49kyRODhElXagOFFAP
+					qgpPjBO6+XKiASB4B78homOn7Ii+6gnBNEwj
+					Bh+6OFSFQ9ZiYF64R94t9dgj1o8IC66jJaQj
+					G0mMLM1U0WXzNjfes1xXOAHLONl5gP/quhpE
+					hkx7cjQa+Ee+snQCLd5laKVtxWjryVQyDMd4
+					3ele3PQLqfVvzzoCnsKFjH5OOy/O+DDqJbFH
+					z3jmongbtECIyZmJFYGjqbUTRrSx8+x4UVUU
+					UswBrXr4NyTh3ULW4Cutb/aii5koff8DHdev
+					PWvGUlCtyTM7Twbcgg== )
+PB6CSP9HL4VH3SU61VIMQ0664K6OEJ4U.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					PDF7IF54RF7CN1HKKMPJILO46TGM8AI4
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					D7EYcu1IqXquC6fiQkpWOTJwpH8evNcjh2nd
+					fmD2sYwIemoB1zUB7fBI5YAqR0yyNJfDXr6i
+					w5puVrGMura44btm5XP8vAjLMUyjpEIeqm/1
+					A3HBHHUZtq5SAJkQ8tYTQ8w3IKmUFD2IgTpF
+					kgVBcObeXtDSnDtR+acK/EacZm7GFSlw5iaB
+					z1m1tPBItgCvUz/kbJZU+e4XDFdjS69qHsaP
+					aLvCbY9V4l2sdM0nSOfgkKpgkyxKPacPaWTR
+					3mOOc5V++vtRw/lC0ahgBzFEof57IeD+mWsI
+					rr41dFhmxFEwktDzkcaShfn1AS+SjNvPz6Af
+					/YYxrndxD6DxuFnbVQ== )
+PDF7IF54RF7CN1HKKMPJILO46TGM8AI4.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					THU8290JSNBSDO3L86DJBVVUMQ7BR4V0
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					Y6SB+1ShtGHfT9/ijdOG4DFnRrh1xjP7e85X
+					rrdaJC/IngYH4W/uKzT4DuxYCw7+wqvZIHdZ
+					pijErtsWpBVQA51frzlA22zChKAszsJaQnlN
+					Y/U/f+sEki1hhDoclLf5jXBC356jyin66YSK
+					MMHeIrGdQ9/JtN3cuxfSrBxMSIELBqxAoTCC
+					We4NsTV92jjoe3wNIbfKczeIcG1RxAOkH3S7
+					4h++iIGp7kLgiRFJJ3rlonpiJ7mesiDCD5dd
+					o03REi6rCcCahudjHW7Zwm8T22HLX+rZJPh1
+					XiqVlv3TLYJhNRxl1NpHq6t49OnZe91+VisQ
+					j4wa5LEh6mRQIT4t5w== )
+THU8290JSNBSDO3L86DJBVVUMQ7BR4V0.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					V0DEBREO2FU1CH5GMH2IJRODMQMBA1ST
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					MllF7JbMgL4CvZK5rVOetGHjF0/2TehviyUO
+					Z8NhpF+QCAyHLaEYx8e84thvIU3+y2kJMKEj
+					nrcyIqOF0P+RBRAyzJ8tQ8oRmcpNZgAdJn5D
+					j1FFaP99lnIfwTQCoDlld1h9IzXFnIacmz2o
+					4fL3WjV75nHDcJsR2obIsVqp0D0tXJ2qxQMr
+					SjuwVjIwZTEgImYvHHJC19FLsmqENalyvZjH
+					vuFaiOUduaOvdeIb+TGju5hTFvmVMQRYYnoZ
+					4jej77emapLCzHN2i5NrRcvomU/1GxndB1QO
+					hPoK4JGwM02hk60DaZo0NSlfsSgFD4AuXrib
+					b7atQznJorjld6l6pQ== )
+V0DEBREO2FU1CH5GMH2IJRODMQMBA1ST.sam-arnalsteen.sb.uclllabs.be.	300 IN NSEC3 1 1 10 6D2D01768FFC7B33 (
+					4T55SGJR45KMS23JRTQEVH41GKC90686
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200108091646 20191209091646 18839 sam-arnalsteen.sb.uclllabs.be.
+					UAwdPAcEhrw9/UJgLBYgZAynq3nda3IQw6Cq
+					AJMU0ay6fmjpYuqvoBprjlWs0812fmhhgnQ1
+					92K+mt6YkMiX4diOh1b7vlbIo9FpQ8Za54C/
+					Hye0SYN/lj9dV74dMPImKOI6FYWJwk80d82V
+					r2eWkWQQA27/zIOC5YL8FO0p5ehY1cV6w6g6
+					FDymnDnqoxgMMCqA1d3Xllt5/SZN79IsgLIA
+					EqhfbhkmzC4Hi5cx494btXpPzocRPQApFwDR
+					Trmc21DxJpLYYqlIUrOVgKkd5b8LNe7jyj/S
+					iD/SjdhMHtDBCiudWG82h9sh15mimv/6M4yC
+					TPIszkZlhoOrR0iW/A== )
